@@ -1,0 +1,137 @@
+.permitCard {
+  width: 173px;
+  height: 204px;
+
+  border-radius: 5px;
+
+  margin: 17px auto;
+  padding: 11px;
+
+  position: relative;
+
+  font-family: 'IBM Plex Mono';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.alert {
+  position: absolute;
+
+  top: 2px;
+  right: 11px;
+}
+
+.alert div {
+  background: rgba(255, 6, 6, 0.6);
+  border-radius: 2px;
+  width: 72px;
+  height: 19px;
+  position: absolute;
+  bottom: 90%;
+  right: -63.5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 10;
+}
+
+.alert-icon {
+  position: relative;
+}
+
+.alert p {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6px;
+  line-height: 8px;
+
+  color: #ffffff;
+}
+
+.permitCard .h1 {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.permitCard .comment {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.permitCard .timestamp {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 12px;
+}
+
+.purple {
+  background-color: #7949ff;
+  color: rgba(255, 255, 255, 0.9);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellow {
+  background-color: rgba(255, 186, 53, 0.9);
+}
+
+.yellow .h1 {
+  color: rgba(156, 114, 31, 0.9);
+  border-bottom: 0.5px solid #9c721f;
+}
+
+.yellow .comment {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.yellow .timestamp {
+  color: rgba(98, 71, 20, 0.9);
+}
+
+.green {
+  background-color: rgba(29, 209, 161, 0.9);
+}
+
+.green .h1 {
+  color: #117b5f;
+  border-bottom: 0.5px solid #117b5f;
+}
+
+.green .comment {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.green .timestamp {
+  color: #117b5f;
+}
+
+.red {
+  background-color: rgba(255, 6, 6, 0.9);
+}
+
+.red .h1 {
+  color: #7d0303;
+  border-bottom: 0.5px solid #7d0303;
+}
+
+.red .comment {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.red .timestamp {
+  color: rgba(125, 3, 3, 0.9);
+}

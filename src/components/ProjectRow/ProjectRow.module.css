@@ -1,0 +1,11 @@
+.table-row td:nth-child(1) {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #272a43;
+
+  padding: 25px;
+}
